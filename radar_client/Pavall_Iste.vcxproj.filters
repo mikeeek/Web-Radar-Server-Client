@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{10030894-08ed-4b0f-bf58-983b1608bc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers">
+      <UniqueIdentifier>{ad2446ac-70a5-4115-b2ec-5011da58549c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Memory">
+      <UniqueIdentifier>{7b779510-4f06-4204-97ac-bcd881dfdef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main">
+      <UniqueIdentifier>{537a5fb7-2024-4686-aaae-ea9bb00c48b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Rebuilt">
+      <UniqueIdentifier>{6a310f54-5c6f-47b3-97b1-1570619a7241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Rebuilt\Math">
+      <UniqueIdentifier>{49c88b23-e026-4b33-b8c6-f91130f646b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Radar">
+      <UniqueIdentifier>{93bfb266-3e44-4bfc-aba8-d962fbaee624}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Code\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Code\Rebuilt\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="radarclient.cpp">
+      <Filter>Code\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="easywsclient.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Code\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.hpp">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Code\Rebuilt\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Code\Rebuilt\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="radarclient.h">
+      <Filter>Code\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Code\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Code\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>Code\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="easywsclient.hpp" />
+    <ClInclude Include="nlohmann\json.hpp" />
+    <ClInclude Include="nlohmann\json_fwd.hpp" />
+    <ClInclude Include="Memory.hpp">
+      <Filter>Code\Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
